@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+GET,GET /owners/{id},HTTPError('405 Client Error: Method Not Allowed for url: GET /owners/{id}'),1945,2026-10-23T18:56:07Z,2026-10-23T19:00:55Z
+GET,GET /owners,HTTPError('405 Client Error: Method Not Allowed for url: GET /owners'),2588,2026-10-23T18:56:07Z,2026-10-23T19:00:55Z
+GET,GET /vets,HTTPError('405 Client Error: Method Not Allowed for url: GET /vets'),785,2026-10-23T18:56:31Z,2026-10-23T19:00:42Z
+POST,POST /owners,CatchResponseError('HTTP 503: Chat is currently unavailable. Please try again later.'),281,2026-10-23T18:56:07Z,2026-10-23T19:00:42Z
